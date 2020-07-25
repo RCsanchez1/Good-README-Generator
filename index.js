@@ -41,13 +41,14 @@ function promptUser() {
 
 function generateHTML(answers) {
     return `
-    #${answers.name}
-    <h5>Discription:</h5>
-    <p class="lead"> ${answers.description}.</p>
-    <h3><span class="badge badge-secondary">Table of Contents</span></h3>
-    <ul class="list-group">
-      <li class="list-group-item">My GitHub username is ${answers.github}</li>
-      <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
+    # ${answers.name}
+    
+   
+   ## Discription ${answers.description}
+   
+       ${answers.github} 
+       
+       ${answers.linkedin}
  >`;
 }
 
