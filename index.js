@@ -9,17 +9,17 @@ function promptUser() {
         {
             type: "input",
             name: "name",
-            message: "What is your name?"
+            message: "What is your name of the project?"
         },
         {
             type: "input",
-            name: "location",
-            message: "Where are you from?"
+            name: "description",
+            message: " Describe the project."
         },
         {
             type: "input",
-            name: "hobby",
-            message: "What is your favorite hobby?"
+            name: "Table of Contents",
+            message: "What are the Table of Contents"
         },
         {
             type: "input",
@@ -52,9 +52,9 @@ function generateHTML(answers) {
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Hi! My name is ${answers.name}</h1>
-    <p class="lead">I am from ${answers.location}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
+    <h1 class="display-4">${answers.name}</h1>
+    <p class="lead"> ${answers.description}.</p>
+    <h3>Example heading <span class="badge badge-secondary">Table of Contents</span></h3>
     <ul class="list-group">
       <li class="list-group-item">My GitHub username is ${answers.github}</li>
       <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
