@@ -53,8 +53,9 @@ function generateHTML(answers) {
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">${answers.name}</h1>
+    <h5>Discription:</h5>
     <p class="lead"> ${answers.description}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Table of Contents</span></h3>
+    <h3><span class="badge badge-secondary">Table of Contents</span></h3>
     <ul class="list-group">
       <li class="list-group-item">My GitHub username is ${answers.github}</li>
       <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
