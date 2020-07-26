@@ -59,6 +59,8 @@ function generateMD(answers) {
     return `
 
 # ${answers.Title}
+
+<img alt="GitHub" src="https://img.shields.io/github/license/mashape/apistatus?color=blue&style=plastic">
     
    
 ## Discription 
@@ -112,11 +114,6 @@ Licensed under the ${answers.License} license.
 promptUser()
     .then(function (answers) {
         const md = generateMD(answers);
-        //var filename = answers.name.toLowerCase().split(' ').join('') + ".json";
-
-        //fs.writeFile(filename, JSON.stringify(answers, null, '\t'), function (err) {
-
-
         return writeFileAsync("README.md", md);
     })
     .then(function () {
@@ -126,4 +123,3 @@ promptUser()
         console.log(err);
     });
 
-    //})
