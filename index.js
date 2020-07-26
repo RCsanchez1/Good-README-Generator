@@ -42,14 +42,20 @@ function promptUser() {
             message: "any questions?"
         },
         {
-            type: "input",
+            type: "list",
             name: "License",
-            message: "what license would you like to add?"
+            message: "what license would you like to add?",
+            choices: [
+                "GNU AGPLv3",
+                "GNU GPLv3",
+                "MIT",
+                "Boost Software 1.0"
+            ]
         }
     ]);
 }
 
-function generateHTML(answers) {
+function generateMD(answers) {
     return `
 
 # ${answers.Title}
@@ -96,14 +102,20 @@ ${answers.Questions}
 
 
 ## License
-${answers.License}
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Licensed under the ${answers.License} license.
 
  `;
 }
 
 promptUser()
     .then(function (answers) {
-        const md = generateHTML(answers);
+        const md = generateMD(answers);
+        //var filename = answers.name.toLowerCase().split(' ').join('') + ".json";
+
+        //fs.writeFile(filename, JSON.stringify(answers, null, '\t'), function (err) {
+
 
         return writeFileAsync("README.md", md);
     })
@@ -114,3 +126,4 @@ promptUser()
         console.log(err);
     });
 
+    //})
