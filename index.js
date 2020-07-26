@@ -8,33 +8,43 @@ function promptUser() {
     return inquirer.prompt([
         {
             type: "input",
-            name: "name",
-            message: "What is your name of the project?"
+            name: "Title",
+            message: "What is the name of the project?"
         },
         {
             type: "input",
             name: "description",
             message: " Describe the project."
         },
-        //{
-        //type: "input",
-        //name: "Table of Contents",
-        //message: "What are the Table of Contents"
-        //},
         {
             type: "input",
-            name: "food",
-            message: "What is your favorite food?"
+            name: "Installation",
+            message: "How would you run or install?"
         },
         {
             type: "input",
-            name: "github",
-            message: "Enter your GitHub Username"
+            name: "Usage",
+            message: "How would you use it?"
         },
         {
             type: "input",
-            name: "linkedin",
-            message: "Enter your LinkedIn URL."
+            name: "Contributing",
+            message: "State if you are open to contributions and what your requirements are for accepting them."
+        },
+        {
+            type: "input",
+            name: "Tests",
+            message: "write some tests for your application"
+        },
+        {
+            type: "input",
+            name: "Questions",
+            message: "any questions?"
+        },
+        {
+            type: "input",
+            name: "License",
+            message: "what license would you like to add?"
         }
     ]);
 }
@@ -42,11 +52,11 @@ function promptUser() {
 function generateHTML(answers) {
     return `
 
-# ${answers.name}
+# ${answers.Title}
     
    
 ## Discription 
-    ${answers.description}
+${answers.description}
 
 ## Table of Contents
 
@@ -65,34 +75,28 @@ function generateHTML(answers) {
 
 
 ## Installation
-${answers.github}
+${answers.Installation}
      
 
 ## Usage
-${answers.linkedin}
+${answers.Usage}
 
 
 ## Contributing
-${answers.linkedin}
+${answers.Contributing}
 
 
 ## Tests
-${answers.linkedin}
+${answers.Tests}
 
 
 
 ## Questions
-${answers.linkedin}
+${answers.Questions}
 
 
 ## License
-${answers.linkedin}
-
-
-
-
-
-
+${answers.License}
 
  `;
 }
