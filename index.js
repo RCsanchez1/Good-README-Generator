@@ -42,13 +42,28 @@ function promptUser() {
 function generateHTML(answers) {
     return `
 
-#<h1>${answers.name}</h1>
+<h1>${answers.name}</h1>
     
    
 ## Discription 
     ${answers.description}
+
+## Table of Contents
+
+<li>Installation</li>
+
+
    
-       ${answers.github} 
+       
+    
+    
+    
+    
+    
+    
+    
+    ${answers.github}
+     
        
        ${answers.linkedin}
  >`;
