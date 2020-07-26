@@ -41,10 +41,12 @@ function promptUser() {
 
 function generateHTML(answers) {
     return `
-    # ${answers.name}
+
+    #${answers.name}
     
    
-   ## Discription ${answers.description}
+    ## Discription 
+    ${answers.description}
    
        ${answers.github} 
        
