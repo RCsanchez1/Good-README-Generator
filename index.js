@@ -42,7 +42,7 @@ function promptUser() {
 function generateHTML(answers) {
     return `
 
-#${answers.name}
+# ${answers.name}
     
    
 ## Discription 
