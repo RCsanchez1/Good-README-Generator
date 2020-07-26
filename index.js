@@ -62,13 +62,39 @@ function generateHTML(answers) {
 
 <li>Questions</li>
 
-   
-       
+
+
+## Installation
 ${answers.github}
      
-       
-       ${answers.linkedin}
- >`;
+
+## Usage
+${answers.linkedin}
+
+
+## Contributing
+
+
+
+## Tests
+
+
+
+
+## Questions
+
+
+
+## License
+
+
+
+
+
+
+
+
+ `;
 }
 
 promptUser()
