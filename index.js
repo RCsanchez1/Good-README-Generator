@@ -50,17 +50,17 @@ function generateHTML(answers) {
 
 ## Table of Contents
 
-<li>Installation</li>
+# <li>Installation</li>
 
-<li>Usage</li>
+# <li>Usage</li>
 
-<li>License</li>
+# <li>License</li>
 
-<li>Contributing</li>
+# <li>Contributing</li>
 
-<li>Tests</li>
+# <li>Tests</li>
 
-<li>Questions</li>
+# <li>Questions</li>
 
 
 
@@ -73,20 +73,20 @@ ${answers.linkedin}
 
 
 ## Contributing
-
+${answers.linkedin}
 
 
 ## Tests
-
+${answers.linkedin}
 
 
 
 ## Questions
-
+${answers.linkedin}
 
 
 ## License
-
+${answers.linkedin}
 
 
 
