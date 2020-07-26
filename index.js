@@ -42,7 +42,7 @@ function promptUser() {
 function generateHTML(answers) {
     return `
 
-<h1>${answers.name}</h1>
+#${answers.name}
     
    
 ## Discription 
@@ -50,17 +50,13 @@ function generateHTML(answers) {
 
 ## Table of Contents
 
-# <li>Installation</li>
+### <li>License</li>
 
-# <li>Usage</li>
+### <li>Contributing</li>
 
-# <li>License</li>
+### <li>Tests</li>
 
-# <li>Contributing</li>
-
-# <li>Tests</li>
-
-# <li>Questions</li>
+### <li>Questions</li>
 
 
 
