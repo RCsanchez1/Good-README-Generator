@@ -50,7 +50,7 @@ function generateHTML(answers) {
 
 ## Table of Contents
 
-### <li><a href="#License">License</a></li>
+* [License](#license)
 
 ### <li>Contributing</li>
 
@@ -81,7 +81,7 @@ ${answers.linkedin}
 ${answers.linkedin}
 
 
-## #License
+## License
 ${answers.linkedin}
 
 
