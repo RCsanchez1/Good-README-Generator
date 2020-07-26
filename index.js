@@ -50,13 +50,17 @@ function generateHTML(answers) {
 
 ## Table of Contents
 
+* [Installation](#installation)
+
+* [Usage](#usage)
+
 * [License](#license)
 
-### <li>Contributing</li>
+* [Contributing](#contributing)
 
-### <li>Tests</li>
+* [Tests](#tests)
 
-### <li>Questions</li>
+* [Questions](#questions)
 
 
 
