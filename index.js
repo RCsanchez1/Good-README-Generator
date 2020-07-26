@@ -16,11 +16,11 @@ function promptUser() {
             name: "description",
             message: " Describe the project."
         },
-        {
-            type: "input",
-            name: "Table of Contents",
-            message: "What are the Table of Contents"
-        },
+        //{
+        //type: "input",
+        //name: "Table of Contents",
+        //message: "What are the Table of Contents"
+        //},
         {
             type: "input",
             name: "food",
@@ -52,17 +52,19 @@ function generateHTML(answers) {
 
 <li>Installation</li>
 
+<li>Usage</li>
+
+<li>License</li>
+
+<li>Contributing</li>
+
+<li>Tests</li>
+
+<li>Questions</li>
 
    
        
-    
-    
-    
-    
-    
-    
-    
-    ${answers.github}
+${answers.github}
      
        
        ${answers.linkedin}
