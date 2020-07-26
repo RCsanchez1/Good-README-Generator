@@ -38,8 +38,13 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "Questions",
-            message: "any questions?"
+            name: "Github",
+            message: "What is your github username?"
+        },
+        {
+            type: "input",
+            name: "Email",
+            message: "What is your Email?"
         },
         {
             type: "list",
@@ -100,8 +105,16 @@ ${answers.Tests}
 
 
 ## Questions
-${answers.Questions}
 
+github user name: ${ answers.Github} link: https://github.com/${answers.Github}
+    
+
+Email: ${answers.Github} 
+
+
+Please press "send email" to send me any questions. <a href="mailto:${answers.Github}">Send Email</a>
+    
+    
 
 ## License
 Copyright (c) Microsoft Corporation. All rights reserved.
