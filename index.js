@@ -106,16 +106,16 @@ ${answers.Tests}
 
 ## Questions
 
-github username:${ answers.Github}        
-
+github username: ${answers.Github}        
+<br> 
 link: https://github.com/${answers.Github}
     
-
+<br>
 
 
 Email: ${answers.Github} 
-
-Please press "send email" to send me any questions. <a href="mailto:${answers.Github}">Send Email</a>
+<br>
+Please press "send email" to send me any questions. <a href="mailto: ${answers.Github}">Send Email</a>
     
     
 
