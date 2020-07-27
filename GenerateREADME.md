@@ -1,11 +1,11 @@
 
 
-# Good-Readme-Generator
+# Read me
 
 <img alt="GitHub" src="https://img.shields.io/badge/License-Boost Software 1.0-<Blue>">
    
 ## Discription 
-qqqqq
+making a readme generator
 
 ## Table of Contents
 
@@ -24,34 +24,34 @@ qqqqq
 
 
 ## Installation
-eeeee
+you run it in terminal
      
 
 ## Usage
-qqqqqq
+it would help to streamline a good readme
 
 
 ## Contributing
-rtrtte
+you are free to copy and add code
 
 
 ## Tests
-sfgsdg
+<li>bullets</li>
 
 
 
 ## Questions
 
-github username: sdfgsdfg        
+github username: RCsanchez1        
 <br> 
-link: https://github.com/sdfgsdfg
+link: https://github.com/RCsanchez1
     
 <br>
 
 
-Email: sdfgsdfg 
+Email: RCsanchez1 
 <br>
-Please press "send email" to send me any questions. <a href="mailto: sdfgsdfg">Send Email</a>
+Please press "send email" to send me any questions. <a href="mailto: RCsanchez1">Send Email</a>
     
     
 
