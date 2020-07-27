@@ -1,16 +1,11 @@
 
 
-# asdfsad
+# qwerwqerqwer
 
-<img alt="GitHub" src="https://img.shields.io/github/license/mashape/apistatus?color=blue&style=plastic">
-
-![License: Github License](https://img.shields.io/badge/License-undefined-brightgreen.svg)
-
-<img alt="GitHub" src="https://img.shields.io/badge/License-MESSAGE-<Blue>">
-  
+<img alt="GitHub" src="https://img.shields.io/badge/License-GNU AGPLv3-<Blue>">
    
 ## Discription 
-aasdfwww
+asdfsdfasfd
 
 ## Table of Contents
 
@@ -29,40 +24,40 @@ aasdfwww
 
 
 ## Installation
-wrfggb
+gdhjjgkhjk
      
 
 ## Usage
-sdfszv
+rt6y45345y
 
 
 ## Contributing
-gsdsg
+26798yhhjjhg
 
 
 ## Tests
-sdfgdsg
+trhgjjkhjggf
 
 
 
 ## Questions
 
-github username: sfgdsg        
+github username: tyukjhgf        
 <br> 
-link: https://github.com/sfgdsg
+link: https://github.com/tyukjhgf
     
 <br>
 
 
-Email: sfgdsg 
+Email: tyukjhgf 
 <br>
-Please press "send email" to send me any questions. <a href="mailto: sfgdsg">Send Email</a>
+Please press "send email" to send me any questions. <a href="mailto: tyukjhgf">Send Email</a>
     
     
 
 ## License
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Licensed under the Boost Software 1.0 license.
+Licensed under the GNU AGPLv3 license.
 
  
