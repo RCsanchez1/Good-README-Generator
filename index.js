@@ -65,8 +65,7 @@ function generateMD(answers) {
 
 # ${answers.Title}
 
-<img alt="GitHub" src="https://img.shields.io/github/license/mashape/apistatus?color=blue&style=plastic">
-    
+<img alt="GitHub" src="https://img.shields.io/badge/License-${answers.License}-<Blue>">
    
 ## Discription 
 ${answers.description}
