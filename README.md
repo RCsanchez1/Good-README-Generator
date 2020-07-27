@@ -1,11 +1,11 @@
 
 
-# qwerwqerqwer
+# Good-Readme-Generator
 
-<img alt="GitHub" src="https://img.shields.io/badge/License-GNU AGPLv3-<Blue>">
+<img alt="GitHub" src="https://img.shields.io/badge/License-MIT-<Blue>">
    
 ## Discription 
-asdfsdfasfd
+Created a readme generator to help streamline the proccess. You run the code in the terminal using node.js and it will ask you questions and place them in the corresponding sections on the read me
 
 ## Table of Contents
 
@@ -24,40 +24,32 @@ asdfsdfasfd
 
 
 ## Installation
-gdhjjgkhjk
+You run the code on your terminal with and answering the prompts that are asked.
      
 
 ## Usage
-rt6y45345y
-
-
-## Contributing
-26798yhhjjhg
-
-
-## Tests
-trhgjjkhjggf
+will generate a readme that you can incorporate in your git hub
 
 
 
 ## Questions
 
-github username: tyukjhgf        
+github username: RCsanchez1       
 <br> 
-link: https://github.com/tyukjhgf
+link: https://github.com/RCsanchez1
     
 <br>
 
 
-Email: tyukjhgf 
+Email:  
 <br>
-Please press "send email" to send me any questions. <a href="mailto: tyukjhgf">Send Email</a>
+Please press "send email" to send me any questions. <a href="mailto: ">Send Email</a>
     
     
 
 ## License
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Licensed under the GNU AGPLv3 license.
+Licensed under the MIT license.
 
  
