@@ -129,10 +129,10 @@ Licensed under the ${answers.License} license.
 promptUser()
     .then(function (answers) {
         const md = generateMD(answers);
-        return writeFileAsync("README.md", md);
+        return writeFileAsync("GenerateREADME.md", md);
     })
     .then(function () {
-        console.log("Successfully wrote to README.md");
+        console.log("Successfully wrote to GenerateREADME.md");
     })
     .catch(function (err) {
         console.log(err);
